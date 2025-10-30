@@ -197,23 +197,22 @@ const Index = () => {
                 </p>
               </div>
             </div>
-            <div className="md:flex gap-2">
+            <div className="md:flex items-center gap-2">
               <Button
                 onClick={() => {
                   setSelectedFavorite(undefined);
                   setIsModalOpen(true);
                 }}
-                size="lg"
-                className="gap-2 rounded-full mb-5 md:mb-0"
+                className="gap-2 md:px-6 rounded-full mb-5 md:mb-0"
               >
                 <Plus className="h-5 w-5" />
                 Add New
               </Button>
               <Button
                 variant="outline"
-                size="lg"
+              
                 onClick={handleLogout}
-                className="gap-2 rounded-full"
+                className="gap-2 px-5 md:px-7 py-5 rounded-full"
               >
                 <LogOut className="h-4 w-4" />
                 Logout
