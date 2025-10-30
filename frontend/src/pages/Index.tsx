@@ -184,8 +184,8 @@ const Index = () => {
       <header className="border-b border-border bg-card/50 backdrop-blur-sm sticky top-0 z-10">
         <div className="container mx-auto px-4 py-6">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <div className="bg-primary/10 p-3 rounded-lg">
+            <div className="md:flex items-center gap-3">
+              <div className="md:bg-primary/10 md:p-3 pb-3 rounded-lg">
                 <Film className="h-8 w-8 text-primary" />
               </div>
               <div>
@@ -197,14 +197,14 @@ const Index = () => {
                 </p>
               </div>
             </div>
-            <div className="flex gap-2">
+            <div className="md:flex gap-2">
               <Button
                 onClick={() => {
                   setSelectedFavorite(undefined);
                   setIsModalOpen(true);
                 }}
                 size="lg"
-                className="gap-2 rounded-full"
+                className="gap-2 rounded-full mb-5 md:mb-0"
               >
                 <Plus className="h-5 w-5" />
                 Add New
