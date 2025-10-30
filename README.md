@@ -35,6 +35,9 @@ https://upload.wikimedia.org/wikipedia/commons/3/38/Stranger_Things_logo.png
 because 64bit based images dont work example:
 data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/.............
 
+**Important**
+The instruction here are for dev stage (experimental) not the production ready one, if you need the production that is real time storage then need setup the render and railway
+
 ## Setup Instructions
 
 ### Prerequisites
